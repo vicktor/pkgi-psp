@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PKGi PSP\n"
+"POT-Creation-Date: 2023-09-29 19:00-0300\n" 
+"PO-Revision-Date: 2023-09-29 19:00-0300\n"
+"Last-Translator: \n"
+"Language-Team: naboo\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ./source\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _\n"  
+"X-Poedit-SearchPath-0: .\n"
+
+#: pkgi.c:82   
+msgid "Installing..."
+msgstr "S'està instal·lant..."
+
+#: pkgi.c:82
+msgid "Please wait..."
+msgstr "Si us plau, esperi..."  
+
+#: pkgi.c:94
+msgid "Installation failed"
+msgstr "Ha fallat la instal·lació"
+
+#: pkgi.c:118
+msgid "Successfully downloaded"
+msgstr "S'ha baixat correctament"
+
+#: pkgi.c:122
+msgid "Task successfully queued (reboot to start)"
+msgstr "Tasca posada a la cua correctament (reiniciï per començar)"
+
+#: pkgi.c:163
+msgid "GB"
+msgstr "GB"   
+
+#: pkgi.c:167 pkgi_download.c:249
+msgid "MB"  
+msgstr "MB"
+
+#: pkgi.c:171 pkgi.c:504 pkgi_download.c:253
+msgid "KB"
+msgstr "KB"   
+
+#: pkgi.c:175 
+msgid "B"
+msgstr "B"
+
+#: pkgi.c:185
+#, c-format
+msgid "pkg requires %u %s free space, but only %u %s available"
+msgstr "el paquet requereix %u %s d'espai lliure, però només hi ha %u %s disponibles"
+
+#: pkgi.c:225 pkgi_menu.c:109 pkgi_menu.c:121
+msgid "All"
+msgstr "Tot"   
+
+#: pkgi.c:226 pkgi_menu.c:122
+msgid "Games"  
+msgstr "Jocs"
+
+#: pkgi.c:227 pkgi_menu.c:123 
+msgid "DLCs"
+msgstr "DLCs"   
+
+#: pkgi.c:228 pkgi_menu.c:124
+msgid "Themes"
+msgstr "Temes"   
+
+#: pkgi.c:229 pkgi_menu.c:125
+msgid "Avatars"
+msgstr "Avatars"  
+
+#: pkgi.c:230 pkgi_menu.c:126  
+msgid "Demos"
+msgstr "Demos"
+
+#: pkgi.c:231 pkgi_menu.c:118 pkgi_menu.c:127
+msgid "Updates"
+msgstr "Actualitzacions"   
+
+#: pkgi.c:232 pkgi_menu.c:128
+msgid "Emulators"
+msgstr "Emuladors"  
+
+#: pkgi.c:233 pkgi_menu.c:129 
+msgid "Apps"
+msgstr "Aplicacions"  
+
+#: pkgi.c:234 pkgi_menu.c:130
+msgid "Tools"
+msgstr "Eines"   
+
+#: pkgi.c:235  
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: pkgi.c:253
+msgid "Exit to XMB?"
+msgstr "Sortir a XMB?"
+
+#: pkgi.c:436
+msgid "No items!"  
+msgstr "No hi ha elements!"
+
+#: pkgi.c:462 
+msgid "Item already installed, download again?"
+msgstr "Element ja instal·lat, el voleu tornar a baixar?"
+
+#: pkgi.c:471 pkgi_download.c:372 pkgi_download.c:652
+msgid "Downloading..."
+msgstr "S'està baixant..."
+
+#: pkgi.c:471 pkgi.c:674 
+msgid "Preparing..."
+msgstr "S'està preparant..."
+
+#: pkgi.c:504 pkgi.c:508
+msgid "Refreshing"
+msgstr "S'està actualitzant" 
+
+#: pkgi.c:563 pkgi.c:567
+msgid "Count"
+msgstr "Comptador"
+
+#: pkgi.c:575  
+msgid "Free"
+msgstr "Lliure"  
+
+#: pkgi.c:585
+msgid "Select"
+msgstr "Seleccionar"
+
+#: pkgi.c:585
+msgid "Close"  
+msgstr "Tancar"  
+
+#: pkgi.c:585 
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+#: pkgi.c:589 pkgi_download.c:136  
+msgid "Download"
+msgstr "Baixar"  
+
+#: pkgi.c:589  
+msgid "Menu"
+msgstr "Menú"
+
+#: pkgi.c:589
+msgid "Details"
+msgstr "Detalls"  
+
+#: pkgi.c:589 
+msgid "Exit"
+msgstr "Sortir"
+
+#: pkgi.c:678
+msgid "Successfully downloaded PKGi PSP update"
+msgstr "S'ha baixat correctament l'actualització de PKGi PSP"
+
+#: pkgi.c:1051
+msgid "Search"
+msgstr "Cerca"  
+
+#: pkgi_db.c:145 pkgi_db.c:153
+msgid "failed to download list from"
+msgstr "ha fallat baixar la llista de"
+
+#: pkgi_db.c:159  
+msgid "list is too large... check for newer pkgi version!"
+msgstr "la llista és massa gran... comproveu si hi ha una versió més nova de pkgi!"
+
+#: pkgi_db.c:187
+msgid "list is empty... check the DB server"  
+msgstr "la llista està buida... comproveu el servidor de base de dades"
+
+#: pkgi_db.c:390
+msgid "ERROR: pkgi.txt file(s) missing or bad config.txt file"
+msgstr "ERROR: Falten els fitxers pkgi.txt o el fitxer config.txt és incorrecte"
+
+#: pkgi_dialog.c:80
+msgid "Content"
+msgstr "Contingut"
+
+#: pkgi_dialog.c:108  
+msgid "ERROR" 
+msgstr "ERROR"
+
+#: pkgi_dialog.c:169
+msgid "Failed to download the update list"
+msgstr "Ha fallat baixar la llista d'actualitzacions"
+
+#: pkgi_dialog.c:174  
+msgid "update(s) loaded"
+msgstr "s'ha carregat la/les actualització/ns" 
+
+#: pkgi_dialog.c:319 
+#, c-format
+msgid "press %s to cancel"
+msgstr "premeu %s per cancel·lar"
+
+#: pkgi_dialog.c:333
+#, c-format
+msgid "press %s to close - %s to scan updates"  
+msgstr "premeu %s per tancar - %s per buscar actualitzacions"
+
+#: pkgi_dialog.c:365
+msgid "Enter"
+msgstr "Retorn"
+
+#: pkgi_dialog.c:365  
+msgid "Back"
+msgstr "Enrere"  
+
+#: pkgi_dialog.c:367
+#, c-format
+msgid "press %s to close"
+msgstr "premeu %s per tancar"
+
+#: pkgi_download.c:183  
+msgid "Install"
+msgstr "Instal·lar"
+
+#: pkgi_download.c:216 pkgi_download.c:220 pkgi_download.c:226
+msgid "ETA"
+msgstr "Temps restant"  
+
+#: pkgi_download.c:310 pkgi_download.c:392
+msgid "Could not send HTTP request" 
+msgstr "No s'ha pogut enviar la petició HTTP"
+
+#: pkgi_download.c:317 pkgi_download.c:399
+msgid "HTTP request failed"
+msgstr "Ha fallat la petició HTTP"
+
+#: pkgi_download.c:322 pkgi_download.c:404
+msgid "HTTP response has unknown length"
+msgstr "La resposta HTTP té una longitud desconeguda"  
+
+#: pkgi_download.c:331  
+msgid "Not enough free space on HDD"
+msgstr "No hi ha prou espai lliure al disc dur"
+
+#: pkgi_download.c:340
+msgid "Could not create task directory on HDD."  
+msgstr "No s'ha pogut crear el directori de tasques al disc dur."
+
+#: pkgi_download.c:348
+msgid "Saving background task..."
+msgstr "S'està desant la tasca en segon pla..."
+
+#: pkgi_download.c:354  
+msgid "Could not create PKG file to HDD."
+msgstr "No s'ha pogut crear el fitxer PKG al disc dur."
+
+#: pkgi_download.c:360 
+msgid "Could not create task files to HDD."
+msgstr "No s'han pogut crear els fitxers de tasques al disc dur." 
+
+#: pkgi_download.c:425 
+msgid "HTTP download error"
+msgstr "Error de baixada HTTP"
+
+#: pkgi_download.c:432
+msgid "HTTP connection closed"  
+msgstr "S'ha tancat la connexió HTTP" 
+
+#: pkgi_download.c:445 
+msgid "failed to write to"
+msgstr "ha fallat escriure a"
+
+#: pkgi_download.c:465
+msgid "cannot create folder"
+msgstr "no es pot crear la carpeta"
+
+#: pkgi_download.c:475  
+msgid "cannot create file"
+msgstr "no es pot crear el fitxer"
+
+#: pkgi_download.c:490 
+msgid "cannot resume file"
+msgstr "no es pot reprendre el fitxer"
+
+#: pkgi_download.c:562  
+msgid "pkg integrity failed, try downloading again"
+msgstr "ha fallat la integritat del paquet, torneu a baixar-lo"
+
+#: pkgi_download.c:573
+msgid "Creating RAP file"
+msgstr "S'està creant el fitxer RAP"
+
+#: pkgi_download.c:581 pkgi_download.c:626
+msgid "Cannot save"
+msgstr "No es pot desar" 
+
+#: pkgi_download.c:621 
+msgid "Creating RIF file"  
+msgstr "S'està creant el fitxer RIF"
+
+#: pkgi_download.c:646
+msgid "Resuming..."
+msgstr "Reprenent..."
+
+#: pkgi_download.c:652
+msgid "Adding background task..."
+msgstr "S'està afegint la tasca en segon pla..." 
+
+#: pkgi_download.c:675  
+msgid "Downloading icon"
+msgstr "S'està baixant la icona"
+
+#: pkgi_download.c:713
+msgid "Could not create install directory on HDD."
+msgstr "No s'ha pogut crear el directori d'instal·lació al disc dur."
+
+#: pkgi_menu.c:102  
+msgid "Search..."
+msgstr "Cerca..."
+
+#: pkgi_menu.c:103
+msgid "Sort by:"
+msgstr "Ordenar per:"
+
+#: pkgi_menu.c:104  
+msgid "Title" 
+msgstr "Títol"
+
+#: pkgi_menu.c:105 
+msgid "Region"
+msgstr "Regió"  
+
+#: pkgi_menu.c:106
+msgid "Name"  
+msgstr "Nom"
+
+#: pkgi_menu.c:107  
+msgid "Size"
+msgstr "Mida"
+
+#: pkgi_menu.c:108  
+msgid "Content:"
+msgstr "Contingut:"
+
+#: pkgi_menu.c:110
+msgid "Regions:"
+msgstr "Regions:"
+
+#: pkgi_menu.c:111  
+msgid "Asia"
+msgstr "Àsia"
+
+#: pkgi_menu.c:112
+msgid "Europe"
+msgstr "Europa"
+
+#: pkgi_menu.c:113 
+msgid "Japan"  
+msgstr "Japó"  
+
+#: pkgi_menu.c:114
+msgid "USA"
+msgstr "EUA"
+
+#: pkgi_menu.c:115  
+msgid "Options:"
+msgstr "Opcions:" 
+
+#: pkgi_menu.c:116  
+msgid "ISO"
+msgstr "ISO"
+
+#: pkgi_menu.c:117
+msgid "Keep PKGs"  
+msgstr "Mantenir PKGs"
+
+#: pkgi_menu.c:119
+msgid "Refresh..."
+msgstr "Actualitzar..."
